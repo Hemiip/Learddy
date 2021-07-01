@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E38EDCB267B0CD100DEECC4 /* PageLearnController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E38EDCA267B0CD100DEECC4 /* PageLearnController.swift */; };
+		A6BA19C95449F1FD7C2ABEFF /* Pods_Learddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD59E120A8ECE8F55DAEF322 /* Pods_Learddy.framework */; };
+		B01B3ABE26786A9700506834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B3ABD26786A9700506834 /* AppDelegate.swift */; };
+		B01B3AC026786A9700506834 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B3ABF26786A9700506834 /* SceneDelegate.swift */; };
+		B01B3AC226786A9700506834 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B3AC126786A9700506834 /* ViewController.swift */; };
+		B01B3AC826786A9700506834 /* Learddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B01B3AC626786A9700506834 /* Learddy.xcdatamodeld */; };
+		B01B3ACA26786A9800506834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01B3AC926786A9800506834 /* Assets.xcassets */; };
+		B01B3ACD26786A9800506834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01B3ACB26786A9800506834 /* LaunchScreen.storyboard */; };
+		B01B3AD726786C6200506834 /* Leadingpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B3AD626786C6200506834 /* Leadingpad.swift */; };
+		B01D1D332681948000561BD8 /* LearddyDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D1D322681948000561BD8 /* LearddyDB.swift */; };
+		B01D1D372682F2BB00561BD8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D1D362682F2BB00561BD8 /* Utils.swift */; };
+		B01D1D3B2683C28100561BD8 /* lofiSound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B01D1D382683C27D00561BD8 /* lofiSound1.mp3 */; };
+		B01D1D3C2683C28100561BD8 /* rainSound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B01D1D392683C27F00561BD8 /* rainSound1.mp3 */; };
+		B01D1D3D2683C28100561BD8 /* jazzSound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B01D1D3A2683C28100561BD8 /* jazzSound1.mp3 */; };
+		B098093E268589AB00BDE5A3 /* fail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B098093C268589AB00BDE5A3 /* fail.mp3 */; };
+		B098093F268589AB00BDE5A3 /* Success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B098093D268589AB00BDE5A3 /* Success.mp3 */; };
+		B09809472685DA4000BDE5A3 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09809462685DA4000BDE5A3 /* UIImage+Gif.swift */; };
+		B098094B2686101F00BDE5A3 /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B098094A2686101F00BDE5A3 /* icon.jpg */; };
+		B0A494FD268659A900061357 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B0A494FC268659A900061357 /* Podfile */; };
+		B0B3B5602679ADF1008BDEA4 /* PageTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B3B55F2679ADF1008BDEA4 /* PageTwoController.swift */; };
+		B0B3B5622679D562008BDEA4 /* PageThreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B3B5612679D562008BDEA4 /* PageThreeController.swift */; };
+		B0B3B5642679D580008BDEA4 /* PageFourController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B3B5632679D580008BDEA4 /* PageFourController.swift */; };
+		B0B3B56F267AFBE6008BDEA4 /* PageHelloController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B3B56E267AFBE6008BDEA4 /* PageHelloController.swift */; };
+		B0BE2836267DB9CA004405F4 /* bgSong-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0BE2835267DB9CA004405F4 /* bgSong-2.mp3 */; };
+		B0D50316267CF18B00B525BC /* PagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D50315267CF18B00B525BC /* PagePickerController.swift */; };
+		B0D50318267CFDEF00B525BC /* PageMusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D50317267CFDEF00B525BC /* PageMusicController.swift */; };
+		B0D5031A267D0D1D00B525BC /* PageSelectMusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D50319267D0D1D00B525BC /* PageSelectMusicController.swift */; };
+		B0D5031B267D0E3800B525BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01B3AC326786A9700506834 /* Main.storyboard */; };
+		B0D5031D267D1A0F00B525BC /* PageStartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D5031C267D1A0F00B525BC /* PageStartController.swift */; };
+		B0D5031F267D1D7400B525BC /* PageFocusTimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D5031E267D1D7400B525BC /* PageFocusTimeController.swift */; };
+		B0D50321267D29A300B525BC /* PageResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D50320267D29A300B525BC /* PageResultController.swift */; };
+		B0F96EE026871880000C4AE1 /* didi_kedip.gif in Resources */ = {isa = PBXBuildFile; fileRef = B0F96EDF26871880000C4AE1 /* didi_kedip.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51D800D28F55DEA4C48E1996 /* Pods-Learddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learddy.debug.xcconfig"; path = "Target Support Files/Pods-Learddy/Pods-Learddy.debug.xcconfig"; sourceTree = "<group>"; };
+		9E38EDCA267B0CD100DEECC4 /* PageLearnController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageLearnController.swift; sourceTree = "<group>"; };
+		B01B3ABA26786A9700506834 /* Learddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01B3ABD26786A9700506834 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B01B3ABF26786A9700506834 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B01B3AC126786A9700506834 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B01B3AC426786A9700506834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B01B3AC726786A9700506834 /* Learddy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Learddy.xcdatamodel; sourceTree = "<group>"; };
+		B01B3AC926786A9800506834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B01B3ACC26786A9800506834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B01B3ACE26786A9800506834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B01B3AD626786C6200506834 /* Leadingpad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leadingpad.swift; sourceTree = "<group>"; };
+		B01D1D322681948000561BD8 /* LearddyDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearddyDB.swift; sourceTree = "<group>"; };
+		B01D1D362682F2BB00561BD8 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B01D1D382683C27D00561BD8 /* lofiSound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lofiSound1.mp3; sourceTree = "<group>"; };
+		B01D1D392683C27F00561BD8 /* rainSound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rainSound1.mp3; sourceTree = "<group>"; };
+		B01D1D3A2683C28100561BD8 /* jazzSound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jazzSound1.mp3; sourceTree = "<group>"; };
+		B098093C268589AB00BDE5A3 /* fail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fail.mp3; sourceTree = "<group>"; };
+		B098093D268589AB00BDE5A3 /* Success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Success.mp3; sourceTree = "<group>"; };
+		B09809462685DA4000BDE5A3 /* UIImage+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		B098094A2686101F00BDE5A3 /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpg; sourceTree = "<group>"; };
+		B0A494FC268659A900061357 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0B3B55F2679ADF1008BDEA4 /* PageTwoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwoController.swift; sourceTree = "<group>"; };
+		B0B3B5612679D562008BDEA4 /* PageThreeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageThreeController.swift; sourceTree = "<group>"; };
+		B0B3B5632679D580008BDEA4 /* PageFourController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageFourController.swift; sourceTree = "<group>"; };
+		B0B3B56E267AFBE6008BDEA4 /* PageHelloController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageHelloController.swift; sourceTree = "<group>"; };
+		B0BE2835267DB9CA004405F4 /* bgSong-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bgSong-2.mp3"; sourceTree = "<group>"; };
+		B0D50315267CF18B00B525BC /* PagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagePickerController.swift; sourceTree = "<group>"; };
+		B0D50317267CFDEF00B525BC /* PageMusicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageMusicController.swift; sourceTree = "<group>"; };
+		B0D50319267D0D1D00B525BC /* PageSelectMusicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSelectMusicController.swift; sourceTree = "<group>"; };
+		B0D5031C267D1A0F00B525BC /* PageStartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageStartController.swift; sourceTree = "<group>"; };
+		B0D5031E267D1D7400B525BC /* PageFocusTimeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageFocusTimeController.swift; sourceTree = "<group>"; };
+		B0D50320267D29A300B525BC /* PageResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageResultController.swift; sourceTree = "<group>"; };
+		B0F96EDF26871880000C4AE1 /* didi_kedip.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = didi_kedip.gif; sourceTree = "<group>"; };
+		E87006D317E5BB615A91E471 /* Pods-Learddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learddy.release.xcconfig"; path = "Target Support Files/Pods-Learddy/Pods-Learddy.release.xcconfig"; sourceTree = "<group>"; };
+		FD59E120A8ECE8F55DAEF322 /* Pods_Learddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B01B3AB726786A9700506834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6BA19C95449F1FD7C2ABEFF /* Pods_Learddy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B01B3AB126786A9700506834 = {
+			isa = PBXGroup;
+			children = (
+				B0A494FC268659A900061357 /* Podfile */,
+				B01B3ABC26786A9700506834 /* Learddy */,
+				B01B3ABB26786A9700506834 /* Products */,
+				C4C40E7BA40AD34066E82068 /* Pods */,
+				BEE118EA51204A782B845269 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B01B3ABB26786A9700506834 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B01B3ABA26786A9700506834 /* Learddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B01B3ABC26786A9700506834 /* Learddy */ = {
+			isa = PBXGroup;
+			children = (
+				B01D1D342682F2A000561BD8 /* Utils */,
+				B01D1D312681944800561BD8 /* Persistance */,
+				B0BE2830267DAAB8004405F4 /* Audio */,
+				B01B3AD926786C9400506834 /* Delegate */,
+				B01B3AD826786C7A00506834 /* Storyboard */,
+				B01B3AD526786B0200506834 /* Controller */,
+				B01B3AD426786AF300506834 /* View */,
+				B01B3AC926786A9800506834 /* Assets.xcassets */,
+				B01B3ACB26786A9800506834 /* LaunchScreen.storyboard */,
+				B01B3ACE26786A9800506834 /* Info.plist */,
+				B098094A2686101F00BDE5A3 /* icon.jpg */,
+				B01B3AC626786A9700506834 /* Learddy.xcdatamodeld */,
+			);
+			path = Learddy;
+			sourceTree = "<group>";
+		};
+		B01B3AD426786AF300506834 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B01B3AD626786C6200506834 /* Leadingpad.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B01B3AD526786B0200506834 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B01B3AC126786A9700506834 /* ViewController.swift */,
+				B0B3B55F2679ADF1008BDEA4 /* PageTwoController.swift */,
+				B0B3B5612679D562008BDEA4 /* PageThreeController.swift */,
+				B0B3B5632679D580008BDEA4 /* PageFourController.swift */,
+				B0B3B56E267AFBE6008BDEA4 /* PageHelloController.swift */,
+				9E38EDCA267B0CD100DEECC4 /* PageLearnController.swift */,
+				B0D50315267CF18B00B525BC /* PagePickerController.swift */,
+				B0D50317267CFDEF00B525BC /* PageMusicController.swift */,
+				B0D50319267D0D1D00B525BC /* PageSelectMusicController.swift */,
+				B0D5031C267D1A0F00B525BC /* PageStartController.swift */,
+				B0D5031E267D1D7400B525BC /* PageFocusTimeController.swift */,
+				B0D50320267D29A300B525BC /* PageResultController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B01B3AD826786C7A00506834 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B01B3AC326786A9700506834 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B01B3AD926786C9400506834 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				B01B3ABD26786A9700506834 /* AppDelegate.swift */,
+				B01B3ABF26786A9700506834 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		B01D1D312681944800561BD8 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				B01D1D322681948000561BD8 /* LearddyDB.swift */,
+			);
+			path = Persistance;
+			sourceTree = "<group>";
+		};
+		B01D1D342682F2A000561BD8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B01D1D362682F2BB00561BD8 /* Utils.swift */,
+				B09809462685DA4000BDE5A3 /* UIImage+Gif.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B0BE2830267DAAB8004405F4 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				B01D1D3A2683C28100561BD8 /* jazzSound1.mp3 */,
+				B01D1D382683C27D00561BD8 /* lofiSound1.mp3 */,
+				B098093C268589AB00BDE5A3 /* fail.mp3 */,
+				B098093D268589AB00BDE5A3 /* Success.mp3 */,
+				B01D1D392683C27F00561BD8 /* rainSound1.mp3 */,
+				B0BE2835267DB9CA004405F4 /* bgSong-2.mp3 */,
+				B0F96EDF26871880000C4AE1 /* didi_kedip.gif */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		BEE118EA51204A782B845269 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD59E120A8ECE8F55DAEF322 /* Pods_Learddy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4C40E7BA40AD34066E82068 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51D800D28F55DEA4C48E1996 /* Pods-Learddy.debug.xcconfig */,
+				E87006D317E5BB615A91E471 /* Pods-Learddy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B01B3AB926786A9700506834 /* Learddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B01B3AD126786A9800506834 /* Build configuration list for PBXNativeTarget "Learddy" */;
+			buildPhases = (
+				2ACB7960AB7547A7BECD1B58 /* [CP] Check Pods Manifest.lock */,
+				B01B3AB626786A9700506834 /* Sources */,
+				B01B3AB726786A9700506834 /* Frameworks */,
+				B01B3AB826786A9700506834 /* Resources */,
+				A531B3816FA9589E795B9918 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Learddy;
+			productName = Learddy;
+			productReference = B01B3ABA26786A9700506834 /* Learddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B01B3AB226786A9700506834 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B01B3AB926786A9700506834 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = B01B3AB526786A9700506834 /* Build configuration list for PBXProject "Learddy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B01B3AB126786A9700506834;
+			productRefGroup = B01B3ABB26786A9700506834 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B01B3AB926786A9700506834 /* Learddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B01B3AB826786A9700506834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01D1D3C2683C28100561BD8 /* rainSound1.mp3 in Resources */,
+				B098093F268589AB00BDE5A3 /* Success.mp3 in Resources */,
+				B0D5031B267D0E3800B525BC /* Main.storyboard in Resources */,
+				B098093E268589AB00BDE5A3 /* fail.mp3 in Resources */,
+				B0F96EE026871880000C4AE1 /* didi_kedip.gif in Resources */,
+				B0BE2836267DB9CA004405F4 /* bgSong-2.mp3 in Resources */,
+				B0A494FD268659A900061357 /* Podfile in Resources */,
+				B098094B2686101F00BDE5A3 /* icon.jpg in Resources */,
+				B01D1D3D2683C28100561BD8 /* jazzSound1.mp3 in Resources */,
+				B01D1D3B2683C28100561BD8 /* lofiSound1.mp3 in Resources */,
+				B01B3ACD26786A9800506834 /* LaunchScreen.storyboard in Resources */,
+				B01B3ACA26786A9800506834 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ACB7960AB7547A7BECD1B58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Learddy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A531B3816FA9589E795B9918 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Learddy/Pods-Learddy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Learddy/Pods-Learddy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Learddy/Pods-Learddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B01B3AB626786A9700506834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B3B5642679D580008BDEA4 /* PageFourController.swift in Sources */,
+				9E38EDCB267B0CD100DEECC4 /* PageLearnController.swift in Sources */,
+				B0D50318267CFDEF00B525BC /* PageMusicController.swift in Sources */,
+				B01D1D332681948000561BD8 /* LearddyDB.swift in Sources */,
+				B0D50316267CF18B00B525BC /* PagePickerController.swift in Sources */,
+				B01B3AD726786C6200506834 /* Leadingpad.swift in Sources */,
+				B0D50321267D29A300B525BC /* PageResultController.swift in Sources */,
+				B01B3AC226786A9700506834 /* ViewController.swift in Sources */,
+				B0D5031A267D0D1D00B525BC /* PageSelectMusicController.swift in Sources */,
+				B01B3AC826786A9700506834 /* Learddy.xcdatamodeld in Sources */,
+				B01B3ABE26786A9700506834 /* AppDelegate.swift in Sources */,
+				B0B3B56F267AFBE6008BDEA4 /* PageHelloController.swift in Sources */,
+				B0D5031F267D1D7400B525BC /* PageFocusTimeController.swift in Sources */,
+				B01B3AC026786A9700506834 /* SceneDelegate.swift in Sources */,
+				B0D5031D267D1A0F00B525BC /* PageStartController.swift in Sources */,
+				B0B3B5602679ADF1008BDEA4 /* PageTwoController.swift in Sources */,
+				B01D1D372682F2BB00561BD8 /* Utils.swift in Sources */,
+				B09809472685DA4000BDE5A3 /* UIImage+Gif.swift in Sources */,
+				B0B3B5622679D562008BDEA4 /* PageThreeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B01B3AC326786A9700506834 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B01B3AC426786A9700506834 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B01B3ACB26786A9800506834 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B01B3ACC26786A9800506834 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B01B3ACF26786A9800506834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B01B3AD026786A9800506834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B01B3AD226786A9800506834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D800D28F55DEA4C48E1996 /* Pods-Learddy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BTP3P5U2W5;
+				INFOPLIST_FILE = Learddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinite.learning.Learddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B01B3AD326786A9800506834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E87006D317E5BB615A91E471 /* Pods-Learddy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BTP3P5U2W5;
+				INFOPLIST_FILE = Learddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Infinite.LearningBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B01B3AB526786A9700506834 /* Build configuration list for PBXProject "Learddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01B3ACF26786A9800506834 /* Debug */,
+				B01B3AD026786A9800506834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B01B3AD126786A9800506834 /* Build configuration list for PBXNativeTarget "Learddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01B3AD226786A9800506834 /* Debug */,
+				B01B3AD326786A9800506834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B01B3AC626786A9700506834 /* Learddy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B01B3AC726786A9700506834 /* Learddy.xcdatamodel */,
+			);
+			currentVersion = B01B3AC726786A9700506834 /* Learddy.xcdatamodel */;
+			path = Learddy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B01B3AB226786A9700506834 /* Project object */;
+}
